@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>calculadora</h1>
+   <br>
+   <div id="container">
+      <div id="boxPainel"><h3 id="txtPainel"></h3></div>
+      <div id="teclado">
+         <div id="somas">
+            <input type="button" onclick="inserir('+')" value="+" id="somar"></button>
+            <input type="button" onclick="inserir('-')" value="-" id="subtr"></button>
+            <input type="button" onclick="inserir('*')" value="x" id="multi"></button>
+             <input type="button" onclick="inserir('/')" value="/" id="porc"></button>
+             <input type="button" onclick="apagar()" value=">" id="divid"></button>
+         </div>
+             <div class="tecNumer">
+                  <input type="button" onclick="inserir(1)" id="num1" value="1"></input>
+                  <input type="button" onclick="inserir(2)" id="num2" value="2"></input>
+                  <input type="button" onclick="inserir(3)" id="num3" value="3"></input>
+                  <input type="button" onclick="inserir(4)" id="num4" value="4"></input>
+                  <input type="button" onclick="inserir(5)" id="num5" value="5"></input>
+                  <input type="button" onclick="inserir(6)" id="num6" value="6"></input>
+                  <input type="button" onclick="inserir(7)" id="num7" value="7"></input>
+                  <input type="button" onclick="inserir(8)" id="num8" value="8"></input>
+                  <input type="button" onclick="inserir(9)" id="num9" value="9"></input>
+                  <input type="button" onclick="inserir(0)" id="num0" value="0"></input>
+                  <input type="button" onclick="igual()" id="igual" value="="></input>
+                  <input type="button" onclick="ce()" id="ce" value="CE"></input>
+                  
+             </div>
+      </div>
+   </div>
+
+   
+  <script src="script.js"></script>
+</body>
+</html>
